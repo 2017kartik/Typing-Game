@@ -6,7 +6,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const accuracyElement = document.getElementById("accuracy");
 
   //Text to display
-  const sampleTexts = ["you", "me", "when", "They"];
+  const sampleTexts = [
+    "Innovation is the practical implementation of ideas that result in the introduction of new goods services.",
+    "Innovation often takes place through the development of more-effective products, processes, services, technologies, art works.",
+    "Surveys of the literature on innovation have found a variety of definitions. In 2009, Baregheh et al.",
+    "Innovation is the multi-stage process whereby organizations transform ideas into new/improved products, service or processes.",
+  ];
   //initial values
   let currentIndex = 0;
   let startTime = new Date();
